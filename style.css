@@ -139,14 +139,24 @@ table {
   background-color: white;
 }
 
-.title {
+.user-info {
   border-bottom: 1px solid #000;
 }
-.title h1 {
+.user-info .username {
   width: 264px;
   font: normal normal normal 80px/106px Roboto;
   letter-spacing: 0px;
   color: #000000;
+  opacity: 1;
+}
+
+.avatar {
+  width: 324px;
+  height: 324px;
+  margin-top: 51px;
+}
+.avatar img {
+  background: transparent url("img/photo-1536180931879-fd2d652efddc.png") 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
