@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -90,7 +91,6 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,21 +105,17 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -127,27 +123,7 @@ q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-.container {
-  margin: 3rem 360px;
-  max-width: 1200px;
-  background-color: white;
-}
-
-.title {
-  border-bottom: 1px solid #000;
-}
-.title h1 {
-  width: 264px;
-  font: normal normal normal 80px/106px Roboto;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-}
-
-/*# sourceMappingURL=style.css.map */

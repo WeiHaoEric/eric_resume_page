@@ -1,3 +1,18 @@
-h2 {
-  color: #f3f;
+@import "reset";
+
+.container {
+  margin: 3rem 360px;
+  max-width: 1200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.title {
+  border-bottom: 1px solid #000;
+  h1 {
+    width: 264px;
+    font: normal normal normal 80px/106px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
 }
