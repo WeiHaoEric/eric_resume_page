@@ -154,10 +154,25 @@ table {
   width: 324px;
   height: 324px;
   margin-top: 51px;
+  margin-bottom: 55px;
 }
 .avatar img {
   background: transparent url("img/photo-1536180931879-fd2d652efddc.png") 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+
+.sub-title {
+  border-bottom: solid 1px #000;
+}
+.sub-title .title-name {
+  font-size: 32px;
+  font: normal normal normal 32px/43px Noto Sans;
+}
+.sub-title .eg-title-name {
+  font: normal normal medium 24px/32px Roboto;
+  font-size: 24px;
+  color: #a00404;
+  margin-left: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
