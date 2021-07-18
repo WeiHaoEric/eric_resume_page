@@ -162,17 +162,30 @@ table {
 }
 
 .sub-title {
+  margin-bottom: 3rem;
+}
+.sub-title .box1 {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
   border-bottom: solid 1px #000;
 }
-.sub-title .title-name {
+.sub-title .box1 .title-name {
+  padding-top: 2px;
   font-size: 32px;
   font: normal normal normal 32px/43px Noto Sans;
 }
-.sub-title .eg-title-name {
-  font: normal normal medium 24px/32px Roboto;
+.sub-title .box1 .eg-title-name {
+  font: normal normal normal 24px/32px Roboto;
   font-size: 24px;
   color: #a00404;
   margin-left: 1rem;
+}
+.sub-title .box2 ul {
+  margin-bottom: 1.5rem;
+}
+.sub-title .box2 ul li {
+  width: 792px;
+  font: normal normal normal 24px/36px Noto Sans;
 }
 
 /*# sourceMappingURL=style.css.map */

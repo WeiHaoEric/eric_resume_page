@@ -30,17 +30,32 @@
 }
 
 .sub-title {
-  border-bottom: solid 1px #000;
+  margin-bottom: 3rem;
+  .box1 {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: solid 1px #000;
 
-  .title-name {
-    font-size: 32px;
-    font: normal normal normal 32px/43px Noto Sans;
+    .title-name {
+      padding-top: 2px;
+      font-size: 32px;
+      font: normal normal normal 32px/43px Noto Sans;
+    }
+
+    .eg-title-name {
+      font: normal normal normal 24px/32px Roboto;
+      font-size: 24px;
+      color: #a00404;
+      margin-left: 1rem;
+    }
   }
-
-  .eg-title-name {
-    font: normal normal medium 24px/32px Roboto;
-    font-size: 24px;
-    color: #a00404;
-    margin-left: 1rem;
+  .box2 {
+    ul {
+      margin-bottom: 1.5rem;
+      li {
+        width: 792px;
+        font: normal normal normal 24px/36px Noto Sans;
+      }
+    }
   }
 }
