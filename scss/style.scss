@@ -79,9 +79,8 @@
   }
 }
 
-.skills-block {
+.block-area {
   width: 100%;
-  height: 474px;
   background-color: #415165;
   display: flex;
   justify-content: center;
@@ -98,12 +97,12 @@
     display: flex;
     justify-content: center;
 
-    .skill-title-name {
+    .title-name {
       color: #fff;
       font-size: 32px;
       font: normal normal medium 32px/45px PingFang TC;
     }
-    .eg-skill-title-name {
+    .eg-title-name {
       color: #fff;
       font-size: 24px;
       padding-top: 0.5rem;
@@ -113,6 +112,7 @@
 
   .skills-list {
     min-width: 100%;
+    margin-bottom: 2.25rem;
 
     ul {
       margin-left: 386px;
@@ -132,6 +132,22 @@
     .skills-chinese {
       margin-top: 3px;
       font: normal normal 300 24px/36px PingFang TC;
+    }
+  }
+
+  .contact-info-list {
+    text-align: center;
+    color: #fff;
+    font: normal normal 300 24px/36px Roboto;
+    margin-bottom: 2.25rem;
+
+    li {
+      margin-top: 1rem;
+      line-height: 32px;
+    }
+
+    .icon-ml1rem {
+      margin-right: 1.5rem;
     }
   }
 }

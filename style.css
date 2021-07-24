@@ -203,42 +203,42 @@ table {
   margin-left: 1rem;
 }
 
-.skills-block {
+.block-area {
   width: 100%;
-  height: 474px;
   background-color: #415165;
   display: flex;
   justify-content: center;
 }
-.skills-block .wrap {
+.block-area .wrap {
   width: 996px;
 }
-.skills-block .sub-title {
+.block-area .sub-title {
   padding: 1.5rem 0 0.5rem 0;
   min-width: 100%;
   border-bottom: solid #fff 1px;
   display: flex;
   justify-content: center;
 }
-.skills-block .sub-title .skill-title-name {
+.block-area .sub-title .title-name {
   color: #fff;
   font-size: 32px;
   font: normal normal medium 32px/45px PingFang TC;
 }
-.skills-block .sub-title .eg-skill-title-name {
+.block-area .sub-title .eg-title-name {
   color: #fff;
   font-size: 24px;
   padding-top: 0.5rem;
   font: normal normal normal 24px/32px Roboto;
 }
-.skills-block .skills-list {
+.block-area .skills-list {
   min-width: 100%;
+  margin-bottom: 2.25rem;
 }
-.skills-block .skills-list ul {
+.block-area .skills-list ul {
   margin-left: 386px;
   border-left: 1px solid #96a9c4;
 }
-.skills-block .skills-list li {
+.block-area .skills-list li {
   padding-left: 1.5rem;
   width: 192px;
   text-align: left;
@@ -247,9 +247,22 @@ table {
   line-height: 32px;
   margin-bottom: 1rem;
 }
-.skills-block .skills-list .skills-chinese {
+.block-area .skills-list .skills-chinese {
   margin-top: 3px;
   font: normal normal 300 24px/36px PingFang TC;
+}
+.block-area .contact-info-list {
+  text-align: center;
+  color: #fff;
+  font: normal normal 300 24px/36px Roboto;
+  margin-bottom: 2.25rem;
+}
+.block-area .contact-info-list li {
+  margin-top: 1rem;
+  line-height: 32px;
+}
+.block-area .contact-info-list .icon-ml1rem {
+  margin-right: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
