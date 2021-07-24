@@ -35,19 +35,6 @@
     padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
     border-bottom: solid 1px #000;
-
-    .title-name {
-      padding-top: 2px;
-      font-size: 32px;
-      font: normal normal normal 32px/43px Noto Sans;
-    }
-
-    .eg-title-name {
-      font: normal normal normal 24px/32px Roboto;
-      font-size: 24px;
-      color: #a00404;
-      margin-left: 1rem;
-    }
   }
   .box2 {
     ul {
@@ -60,6 +47,46 @@
 
     .edu-career {
       margin-bottom: 1.5rem;
+    }
+  }
+
+  .title-name {
+    padding-top: 2px;
+    font-size: 32px;
+    font: normal normal normal 32px/43px Noto Sans;
+  }
+
+  .eg-title-name {
+    font: normal normal normal 24px/32px Roboto;
+    font-size: 24px;
+    color: #a00404;
+    margin-left: 1rem;
+  }
+}
+
+.skills-block {
+  width: 100%;
+  background-color: #415165;
+  display: flex;
+  justify-content: center;
+
+  .sub-title {
+    padding: 1.5rem 0 0.5rem 0;
+    width: 996px;
+    // height: 45px;
+    border-bottom: solid #fff 1px;
+    display: flex;
+    justify-content: center;
+
+    .skill-title-name {
+      color: #fff;
+      font-size: 32px;
+      font: normal normal normal 32px/43px Noto Sans;
+    }
+    .eg-skill-title-name {
+      color: #fff;
+      font-size: 24px;
+      line-height: 48px;
     }
   }
 }
