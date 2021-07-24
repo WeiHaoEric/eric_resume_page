@@ -193,13 +193,17 @@ table {
 
 .skills-block {
   width: 100%;
+  height: 474px;
   background-color: #415165;
   display: flex;
   justify-content: center;
 }
+.skills-block .wrap {
+  width: 996px;
+}
 .skills-block .sub-title {
   padding: 1.5rem 0 0.5rem 0;
-  width: 996px;
+  min-width: 100%;
   border-bottom: solid #fff 1px;
   display: flex;
   justify-content: center;
@@ -207,12 +211,33 @@ table {
 .skills-block .sub-title .skill-title-name {
   color: #fff;
   font-size: 32px;
-  font: normal normal normal 32px/43px Noto Sans;
+  font: normal normal medium 32px/45px PingFang TC;
 }
 .skills-block .sub-title .eg-skill-title-name {
   color: #fff;
   font-size: 24px;
-  line-height: 48px;
+  padding-top: 0.5rem;
+  font: normal normal normal 24px/32px Roboto;
+}
+.skills-block .skills-list {
+  min-width: 100%;
+}
+.skills-block .skills-list ul {
+  margin-left: 386px;
+  border-left: 1px solid #96a9c4;
+}
+.skills-block .skills-list li {
+  padding-left: 1.5rem;
+  width: 192px;
+  text-align: left;
+  color: #fff;
+  font: normal normal 300 24px/36px Roboto;
+  line-height: 32px;
+  margin-bottom: 1rem;
+}
+.skills-block .skills-list .skills-chinese {
+  margin-top: 3px;
+  font: normal normal 300 24px/36px PingFang TC;
 }
 
 /*# sourceMappingURL=style.css.map */
