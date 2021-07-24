@@ -179,6 +179,18 @@ table {
 .sub-title .box2 .edu-career {
   margin-bottom: 1.5rem;
 }
+.sub-title .box3 {
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+  font: normal normal normal 24px/36px Noto Sans;
+  border-left: 1px solid #96a9c4;
+}
+.sub-title .box3 li {
+  margin: 0.5rem 0;
+}
+.sub-title .box3 .li-1rem {
+  margin-top: 1rem;
+}
 .sub-title .title-name {
   padding-top: 2px;
   font-size: 32px;
