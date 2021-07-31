@@ -191,11 +191,6 @@ table {
 .sub-title .work-experience .li-1rem {
   margin-top: 1rem;
 }
-.sub-title .title-name {
-  padding-top: 2px;
-  font-size: 32px;
-  font: normal normal normal 32px/43px Noto Sans;
-}
 .sub-title .eg-title-name {
   font: normal normal normal 24px/32px Roboto;
   font-size: 24px;
