@@ -176,8 +176,9 @@ table {
   width: 792px;
   font: normal normal normal 24px/36px Noto Sans;
 }
-.sub-title .list-container ul .edu-career {
+.sub-title .list-container .edu-career {
   margin-bottom: 1.5rem;
+  font: normal normal normal 24px/36px Noto Sans;
 }
 .sub-title .work-experience {
   margin-left: 1.5rem;
@@ -190,6 +191,11 @@ table {
 }
 .sub-title .work-experience .li-1rem {
   margin-top: 1rem;
+}
+.sub-title .title-name {
+  padding-top: 2px;
+  font-size: 32px;
+  font: normal normal normal 32px/43px Noto Sans;
 }
 .sub-title .eg-title-name {
   font: normal normal normal 24px/32px Roboto;

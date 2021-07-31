@@ -43,9 +43,10 @@
         width: 792px;
         font: normal normal normal 24px/36px Noto Sans;
       }
-      .edu-career {
-        margin-bottom: 1.5rem;
-      }
+    }
+    .edu-career {
+      margin-bottom: 1.5rem;
+      font: normal normal normal 24px/36px Noto Sans;
     }
   }
 
@@ -64,11 +65,11 @@
     }
   }
 
-  // .title-name {
-  //   padding-top: 2px;
-  //   font-size: 32px;
-  //   font: normal normal normal 32px/43px Noto Sans;
-  // }
+  .title-name {
+    padding-top: 2px;
+    font-size: 32px;
+    font: normal normal normal 32px/43px Noto Sans;
+  }
 
   .eg-title-name {
     font: normal normal normal 24px/32px Roboto;
