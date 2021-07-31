@@ -164,31 +164,31 @@ table {
 .sub-title {
   margin-bottom: 3rem;
 }
-.sub-title .box1 {
+.sub-title .sub-container {
   padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   border-bottom: solid 1px #000;
 }
-.sub-title .box2 ul {
+.sub-title .list-container ul {
   margin-bottom: 1.5rem;
 }
-.sub-title .box2 ul li {
+.sub-title .list-container ul li {
   width: 792px;
   font: normal normal normal 24px/36px Noto Sans;
 }
-.sub-title .box2 .edu-career {
+.sub-title .list-container ul .edu-career {
   margin-bottom: 1.5rem;
 }
-.sub-title .box3 {
+.sub-title .work-experience {
   margin-left: 1.5rem;
   padding-left: 1.5rem;
   font: normal normal normal 24px/36px Noto Sans;
   border-left: 1px solid #96a9c4;
 }
-.sub-title .box3 li {
+.sub-title .work-experience li {
   margin: 0.5rem 0;
 }
-.sub-title .box3 .li-1rem {
+.sub-title .work-experience .li-1rem {
   margin-top: 1rem;
 }
 .sub-title .title-name {
